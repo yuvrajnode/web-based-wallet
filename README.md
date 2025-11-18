@@ -2,6 +2,9 @@
 
 A modern, secure web-based wallet application supporting both Ethereum and Solana blockchains. Built with React, Vite, and Tailwind CSS.
 
+# Deployment Link 
+https://web-based-wallet-jpi1.vercel.app
+
 ## Features
 
 ### 🔐 Seed Phrase Generation
@@ -138,8 +141,7 @@ src/
 
 ## License
 
-This project is for educational purposes. Use at your own risk.
-
+This project is for educational purposes.
 ## Support
 
 For issues and questions:
