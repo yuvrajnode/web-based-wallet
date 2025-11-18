@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* Deep galaxy gradient base */
+body {
+  background: radial-gradient(circle at 20% 20%, #12002f, #05010e 70%);
+  color: white;
+  min-height: 100vh;
+}
+
+/* Galaxy star particles */
+.stars {
+  width: 2000px;
+  height: 2000px;
+  background: transparent url("https://raw.githubusercontent.com/anuraghazra/normalized-stars/master/layer1.png") repeat;
+  position: absolute;
+  top: -500px;
+  left: -500px;
+  animation: starFloat 60s linear infinite;
+  opacity: 0.6;
+}
+
+.stars2 {
+  width: 2000px;
+  height: 2000px;
+  background: transparent url("https://raw.githubusercontent.com/anuraghazra/normalized-stars/master/layer2.png") repeat;
+  position: absolute;
+  top: -400px;
+  left: -400px;
+  animation: starFloat 100s linear infinite reverse;
+  opacity: 0.4;
+}
+
+@keyframes starFloat {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(-200px, -200px) rotate(360deg); }
+}
+
+/* Nebula cloud swirl */
+.nebula {
+  position: absolute;
+  width: 1600px;
+  height: 1600px;
+  background: radial-gradient(circle, rgba(88,0,255,0.15), transparent 60%);
+  top: -400px;
+  left: -300px;
+  filter: blur(200px);
+  animation: nebulaMove 20s ease-in-out infinite alternate;
+}
+
+@keyframes nebulaMove {
+  0% { transform: translate(0px,0px) scale(1); }
+  100% { transform: translate(80px, 80px) scale(1.2); }
+}
