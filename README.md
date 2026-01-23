@@ -57,7 +57,7 @@ https://web-based-wallet-jpi1.vercel.app
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/yuvrajnode/web-based-wallet.git
 cd wallet
 
 # Install dependencies
