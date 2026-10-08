@@ -1,6 +1,6 @@
 # Web-Based Cryptocurrency Wallet
 
-A modern, secure web-based wallet application supporting both Ethereum and Solana blockchains. Built with React, Vite, and Tailwind CSS.
+A browser wallet demo supporting Ethereum and Solana account derivation and blockchain interactions. Built with React, Vite, and Tailwind CSS.
 
 **Live demo →** [web-based-wallet-two-sable.vercel.app](https://web-based-wallet-two-sable.vercel.app)
 
@@ -59,7 +59,7 @@ A modern, secure web-based wallet application supporting both Ethereum and Solan
 ```bash
 # Clone the repository
 git clone https://github.com/yuvrajnode/web-based-wallet.git
-cd wallet
+cd web-based-wallet
 
 # Install dependencies
 npm install
